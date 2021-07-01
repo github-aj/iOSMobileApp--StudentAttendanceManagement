@@ -1,0 +1,778 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C22A9832688BB7500B9A83E /* AttendanceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C22A9822688BB7500B9A83E /* AttendanceViewController.m */; };
+		4C44F2E02684FF12008847AD /* AddStudentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C44F2DF2684FF12008847AD /* AddStudentViewController.m */; };
+		4C44F3062685E9CF008847AD /* DisplayClassInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C44F3052685E9CF008847AD /* DisplayClassInfoViewController.m */; };
+		4C44F320268713C5008847AD /* Students+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C44F31E268713C5008847AD /* Students+CoreDataClass.m */; };
+		4C44F321268713C5008847AD /* Students+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C44F31F268713C5008847AD /* Students+CoreDataProperties.m */; };
+		4C4CD8B1268B5A6B0037926E /* StudentInfoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C4CD8B0268B5A6B0037926E /* StudentInfoTableViewController.m */; };
+		4C6BF6742684E52E0014F94F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6BF6732684E52E0014F94F /* AppDelegate.m */; };
+		4C6BF6772684E52E0014F94F /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6BF6762684E52E0014F94F /* SceneDelegate.m */; };
+		4C6BF67A2684E52E0014F94F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6BF6792684E52E0014F94F /* ViewController.m */; };
+		4C6BF67D2684E52E0014F94F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C6BF67B2684E52E0014F94F /* Main.storyboard */; };
+		4C6BF6802684E52E0014F94F /* AttendanceManagement.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4C6BF67E2684E52E0014F94F /* AttendanceManagement.xcdatamodeld */; };
+		4C6BF6822684E52F0014F94F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C6BF6812684E52F0014F94F /* Assets.xcassets */; };
+		4C6BF6852684E52F0014F94F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C6BF6832684E52F0014F94F /* LaunchScreen.storyboard */; };
+		4C6BF6882684E52F0014F94F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6BF6872684E52F0014F94F /* main.m */; };
+		4C6BF6922684E52F0014F94F /* AttendanceManagementTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6BF6912684E52F0014F94F /* AttendanceManagementTests.m */; };
+		4C6BF69D2684E52F0014F94F /* AttendanceManagementUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6BF69C2684E52F0014F94F /* AttendanceManagementUITests.m */; };
+		4CD284E926898A1A00AAE7CC /* Attendance+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CD284E726898A1A00AAE7CC /* Attendance+CoreDataClass.m */; };
+		4CD284EA26898A1A00AAE7CC /* Attendance+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CD284E826898A1A00AAE7CC /* Attendance+CoreDataProperties.m */; };
+		4CD284F72689D75D00AAE7CC /* AtendanceClassViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CD284F62689D75D00AAE7CC /* AtendanceClassViewController.m */; };
+		4CD2851E268B1CEF00AAE7CC /* DeleteStudentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CD2851D268B1CEF00AAE7CC /* DeleteStudentViewController.m */; };
+		4CE88B13268B9D0F0011C632 /* StudentInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE88B12268B9D0F0011C632 /* StudentInfoViewController.m */; };
+		4CE88B1D268C581A0011C632 /* takeInputsForEditAttendanceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE88B1C268C581A0011C632 /* takeInputsForEditAttendanceViewController.m */; };
+		4CE88B26268C58EC0011C632 /* EditAttendanceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE88B25268C58EC0011C632 /* EditAttendanceViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4C6BF68E2684E52F0014F94F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C6BF6672684E52E0014F94F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C6BF66E2684E52E0014F94F;
+			remoteInfo = AttendanceManagement;
+		};
+		4C6BF6992684E52F0014F94F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C6BF6672684E52E0014F94F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C6BF66E2684E52E0014F94F;
+			remoteInfo = AttendanceManagement;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4C22A9812688BB7500B9A83E /* AttendanceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AttendanceViewController.h; sourceTree = "<group>"; };
+		4C22A9822688BB7500B9A83E /* AttendanceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AttendanceViewController.m; sourceTree = "<group>"; };
+		4C44F2DE2684FF12008847AD /* AddStudentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddStudentViewController.h; sourceTree = "<group>"; };
+		4C44F2DF2684FF12008847AD /* AddStudentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddStudentViewController.m; sourceTree = "<group>"; };
+		4C44F3032685E7C8008847AD /* DataTransferDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataTransferDelegate.h; sourceTree = "<group>"; };
+		4C44F3042685E9CF008847AD /* DisplayClassInfoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DisplayClassInfoViewController.h; sourceTree = "<group>"; };
+		4C44F3052685E9CF008847AD /* DisplayClassInfoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DisplayClassInfoViewController.m; sourceTree = "<group>"; };
+		4C44F31C268713C5008847AD /* Students+CoreDataProperties.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Students+CoreDataProperties.h"; sourceTree = "<group>"; };
+		4C44F31D268713C5008847AD /* Students+CoreDataClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Students+CoreDataClass.h"; sourceTree = "<group>"; };
+		4C44F31E268713C5008847AD /* Students+CoreDataClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Students+CoreDataClass.m"; sourceTree = "<group>"; };
+		4C44F31F268713C5008847AD /* Students+CoreDataProperties.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Students+CoreDataProperties.m"; sourceTree = "<group>"; };
+		4C4CD8AF268B5A6B0037926E /* StudentInfoTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StudentInfoTableViewController.h; sourceTree = "<group>"; };
+		4C4CD8B0268B5A6B0037926E /* StudentInfoTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StudentInfoTableViewController.m; sourceTree = "<group>"; };
+		4C6BF66F2684E52E0014F94F /* AttendanceManagement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AttendanceManagement.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C6BF6722684E52E0014F94F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4C6BF6732684E52E0014F94F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4C6BF6752684E52E0014F94F /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		4C6BF6762684E52E0014F94F /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		4C6BF6782684E52E0014F94F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4C6BF6792684E52E0014F94F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4C6BF67C2684E52E0014F94F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4C6BF67F2684E52E0014F94F /* AttendanceManagement.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AttendanceManagement.xcdatamodel; sourceTree = "<group>"; };
+		4C6BF6812684E52F0014F94F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4C6BF6842684E52F0014F94F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4C6BF6862684E52F0014F94F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C6BF6872684E52F0014F94F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4C6BF68D2684E52F0014F94F /* AttendanceManagementTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AttendanceManagementTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C6BF6912684E52F0014F94F /* AttendanceManagementTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AttendanceManagementTests.m; sourceTree = "<group>"; };
+		4C6BF6932684E52F0014F94F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C6BF6982684E52F0014F94F /* AttendanceManagementUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AttendanceManagementUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C6BF69C2684E52F0014F94F /* AttendanceManagementUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AttendanceManagementUITests.m; sourceTree = "<group>"; };
+		4C6BF69E2684E52F0014F94F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CD284E526898A1A00AAE7CC /* Attendance+CoreDataProperties.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Attendance+CoreDataProperties.h"; sourceTree = "<group>"; };
+		4CD284E626898A1A00AAE7CC /* Attendance+CoreDataClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Attendance+CoreDataClass.h"; sourceTree = "<group>"; };
+		4CD284E726898A1A00AAE7CC /* Attendance+CoreDataClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Attendance+CoreDataClass.m"; sourceTree = "<group>"; };
+		4CD284E826898A1A00AAE7CC /* Attendance+CoreDataProperties.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Attendance+CoreDataProperties.m"; sourceTree = "<group>"; };
+		4CD284F52689D75D00AAE7CC /* AtendanceClassViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AtendanceClassViewController.h; sourceTree = "<group>"; };
+		4CD284F62689D75D00AAE7CC /* AtendanceClassViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AtendanceClassViewController.m; sourceTree = "<group>"; };
+		4CD2851C268B1CEF00AAE7CC /* DeleteStudentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeleteStudentViewController.h; sourceTree = "<group>"; };
+		4CD2851D268B1CEF00AAE7CC /* DeleteStudentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeleteStudentViewController.m; sourceTree = "<group>"; };
+		4CE88B11268B9D0F0011C632 /* StudentInfoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StudentInfoViewController.h; sourceTree = "<group>"; };
+		4CE88B12268B9D0F0011C632 /* StudentInfoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StudentInfoViewController.m; sourceTree = "<group>"; };
+		4CE88B1B268C581A0011C632 /* takeInputsForEditAttendanceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = takeInputsForEditAttendanceViewController.h; sourceTree = "<group>"; };
+		4CE88B1C268C581A0011C632 /* takeInputsForEditAttendanceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = takeInputsForEditAttendanceViewController.m; sourceTree = "<group>"; };
+		4CE88B24268C58EC0011C632 /* EditAttendanceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EditAttendanceViewController.h; sourceTree = "<group>"; };
+		4CE88B25268C58EC0011C632 /* EditAttendanceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EditAttendanceViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C6BF66C2684E52E0014F94F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C6BF68A2684E52F0014F94F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C6BF6952684E52F0014F94F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C22A9722688B58600B9A83E /* StudentAddition */ = {
+			isa = PBXGroup;
+			children = (
+				4C44F2DE2684FF12008847AD /* AddStudentViewController.h */,
+				4C44F2DF2684FF12008847AD /* AddStudentViewController.m */,
+			);
+			name = StudentAddition;
+			sourceTree = "<group>";
+		};
+		4C22A9732688B5A000B9A83E /* ClassInfo */ = {
+			isa = PBXGroup;
+			children = (
+				4C44F3042685E9CF008847AD /* DisplayClassInfoViewController.h */,
+				4C44F3052685E9CF008847AD /* DisplayClassInfoViewController.m */,
+			);
+			name = ClassInfo;
+			sourceTree = "<group>";
+		};
+		4C22A9802688BB4800B9A83E /* Attendance */ = {
+			isa = PBXGroup;
+			children = (
+				4C22A9812688BB7500B9A83E /* AttendanceViewController.h */,
+				4C22A9822688BB7500B9A83E /* AttendanceViewController.m */,
+				4CD284F52689D75D00AAE7CC /* AtendanceClassViewController.h */,
+				4CD284F62689D75D00AAE7CC /* AtendanceClassViewController.m */,
+			);
+			name = Attendance;
+			sourceTree = "<group>";
+		};
+		4C44F2D82684FB15008847AD /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				4C44F3032685E7C8008847AD /* DataTransferDelegate.h */,
+				4C6BF6722684E52E0014F94F /* AppDelegate.h */,
+				4C6BF6732684E52E0014F94F /* AppDelegate.m */,
+				4C6BF6752684E52E0014F94F /* SceneDelegate.h */,
+				4C6BF6762684E52E0014F94F /* SceneDelegate.m */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		4C44F2D92684FB26008847AD /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4CE88B1A268C57D80011C632 /* EditAttendance */,
+				4C4CD8B5268B5A760037926E /* StudentInfo */,
+				4CD28522268B1D0100AAE7CC /* DeleteStudent */,
+				4C22A9802688BB4800B9A83E /* Attendance */,
+				4C22A9732688B5A000B9A83E /* ClassInfo */,
+				4C22A9722688B58600B9A83E /* StudentAddition */,
+				4C6BF6782684E52E0014F94F /* ViewController.h */,
+				4C6BF6792684E52E0014F94F /* ViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4C44F2DA2684FB40008847AD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4CD284EE26898A2B00AAE7CC /* attendance */,
+				4CD284E1268989EE00AAE7CC /* students */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4C4CD8B5268B5A760037926E /* StudentInfo */ = {
+			isa = PBXGroup;
+			children = (
+				4C4CD8AF268B5A6B0037926E /* StudentInfoTableViewController.h */,
+				4C4CD8B0268B5A6B0037926E /* StudentInfoTableViewController.m */,
+				4CE88B11268B9D0F0011C632 /* StudentInfoViewController.h */,
+				4CE88B12268B9D0F0011C632 /* StudentInfoViewController.m */,
+			);
+			name = StudentInfo;
+			sourceTree = "<group>";
+		};
+		4C6BF6662684E52E0014F94F = {
+			isa = PBXGroup;
+			children = (
+				4C6BF6712684E52E0014F94F /* AttendanceManagement */,
+				4C6BF6902684E52F0014F94F /* AttendanceManagementTests */,
+				4C6BF69B2684E52F0014F94F /* AttendanceManagementUITests */,
+				4C6BF6702684E52E0014F94F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C6BF6702684E52E0014F94F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C6BF66F2684E52E0014F94F /* AttendanceManagement.app */,
+				4C6BF68D2684E52F0014F94F /* AttendanceManagementTests.xctest */,
+				4C6BF6982684E52F0014F94F /* AttendanceManagementUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C6BF6712684E52E0014F94F /* AttendanceManagement */ = {
+			isa = PBXGroup;
+			children = (
+				4C44F2DA2684FB40008847AD /* Models */,
+				4C44F2D92684FB26008847AD /* Controllers */,
+				4C44F2D82684FB15008847AD /* Delegates */,
+				4C6BF67B2684E52E0014F94F /* Main.storyboard */,
+				4C6BF6812684E52F0014F94F /* Assets.xcassets */,
+				4C6BF6832684E52F0014F94F /* LaunchScreen.storyboard */,
+				4C6BF6862684E52F0014F94F /* Info.plist */,
+				4C6BF6872684E52F0014F94F /* main.m */,
+				4C6BF67E2684E52E0014F94F /* AttendanceManagement.xcdatamodeld */,
+			);
+			path = AttendanceManagement;
+			sourceTree = "<group>";
+		};
+		4C6BF6902684E52F0014F94F /* AttendanceManagementTests */ = {
+			isa = PBXGroup;
+			children = (
+				4C6BF6912684E52F0014F94F /* AttendanceManagementTests.m */,
+				4C6BF6932684E52F0014F94F /* Info.plist */,
+			);
+			path = AttendanceManagementTests;
+			sourceTree = "<group>";
+		};
+		4C6BF69B2684E52F0014F94F /* AttendanceManagementUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4C6BF69C2684E52F0014F94F /* AttendanceManagementUITests.m */,
+				4C6BF69E2684E52F0014F94F /* Info.plist */,
+			);
+			path = AttendanceManagementUITests;
+			sourceTree = "<group>";
+		};
+		4CD284E1268989EE00AAE7CC /* students */ = {
+			isa = PBXGroup;
+			children = (
+				4C44F31F268713C5008847AD /* Students+CoreDataProperties.m */,
+				4C44F31C268713C5008847AD /* Students+CoreDataProperties.h */,
+				4C44F31D268713C5008847AD /* Students+CoreDataClass.h */,
+				4C44F31E268713C5008847AD /* Students+CoreDataClass.m */,
+			);
+			path = students;
+			sourceTree = "<group>";
+		};
+		4CD284EE26898A2B00AAE7CC /* attendance */ = {
+			isa = PBXGroup;
+			children = (
+				4CD284E526898A1A00AAE7CC /* Attendance+CoreDataProperties.h */,
+				4CD284E626898A1A00AAE7CC /* Attendance+CoreDataClass.h */,
+				4CD284E726898A1A00AAE7CC /* Attendance+CoreDataClass.m */,
+				4CD284E826898A1A00AAE7CC /* Attendance+CoreDataProperties.m */,
+			);
+			name = attendance;
+			sourceTree = "<group>";
+		};
+		4CD28522268B1D0100AAE7CC /* DeleteStudent */ = {
+			isa = PBXGroup;
+			children = (
+				4CD2851C268B1CEF00AAE7CC /* DeleteStudentViewController.h */,
+				4CD2851D268B1CEF00AAE7CC /* DeleteStudentViewController.m */,
+			);
+			name = DeleteStudent;
+			sourceTree = "<group>";
+		};
+		4CE88B1A268C57D80011C632 /* EditAttendance */ = {
+			isa = PBXGroup;
+			children = (
+				4CE88B1B268C581A0011C632 /* takeInputsForEditAttendanceViewController.h */,
+				4CE88B1C268C581A0011C632 /* takeInputsForEditAttendanceViewController.m */,
+				4CE88B24268C58EC0011C632 /* EditAttendanceViewController.h */,
+				4CE88B25268C58EC0011C632 /* EditAttendanceViewController.m */,
+			);
+			name = EditAttendance;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C6BF66E2684E52E0014F94F /* AttendanceManagement */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C6BF6A12684E52F0014F94F /* Build configuration list for PBXNativeTarget "AttendanceManagement" */;
+			buildPhases = (
+				4C6BF66B2684E52E0014F94F /* Sources */,
+				4C6BF66C2684E52E0014F94F /* Frameworks */,
+				4C6BF66D2684E52E0014F94F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AttendanceManagement;
+			productName = AttendanceManagement;
+			productReference = 4C6BF66F2684E52E0014F94F /* AttendanceManagement.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4C6BF68C2684E52F0014F94F /* AttendanceManagementTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C6BF6A42684E52F0014F94F /* Build configuration list for PBXNativeTarget "AttendanceManagementTests" */;
+			buildPhases = (
+				4C6BF6892684E52F0014F94F /* Sources */,
+				4C6BF68A2684E52F0014F94F /* Frameworks */,
+				4C6BF68B2684E52F0014F94F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C6BF68F2684E52F0014F94F /* PBXTargetDependency */,
+			);
+			name = AttendanceManagementTests;
+			productName = AttendanceManagementTests;
+			productReference = 4C6BF68D2684E52F0014F94F /* AttendanceManagementTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4C6BF6972684E52F0014F94F /* AttendanceManagementUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C6BF6A72684E52F0014F94F /* Build configuration list for PBXNativeTarget "AttendanceManagementUITests" */;
+			buildPhases = (
+				4C6BF6942684E52F0014F94F /* Sources */,
+				4C6BF6952684E52F0014F94F /* Frameworks */,
+				4C6BF6962684E52F0014F94F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C6BF69A2684E52F0014F94F /* PBXTargetDependency */,
+			);
+			name = AttendanceManagementUITests;
+			productName = AttendanceManagementUITests;
+			productReference = 4C6BF6982684E52F0014F94F /* AttendanceManagementUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C6BF6672684E52E0014F94F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					4C6BF66E2684E52E0014F94F = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					4C6BF68C2684E52F0014F94F = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 4C6BF66E2684E52E0014F94F;
+					};
+					4C6BF6972684E52F0014F94F = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 4C6BF66E2684E52E0014F94F;
+					};
+				};
+			};
+			buildConfigurationList = 4C6BF66A2684E52E0014F94F /* Build configuration list for PBXProject "AttendanceManagement" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4C6BF6662684E52E0014F94F;
+			productRefGroup = 4C6BF6702684E52E0014F94F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C6BF66E2684E52E0014F94F /* AttendanceManagement */,
+				4C6BF68C2684E52F0014F94F /* AttendanceManagementTests */,
+				4C6BF6972684E52F0014F94F /* AttendanceManagementUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C6BF66D2684E52E0014F94F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C6BF6852684E52F0014F94F /* LaunchScreen.storyboard in Resources */,
+				4C6BF6822684E52F0014F94F /* Assets.xcassets in Resources */,
+				4C6BF67D2684E52E0014F94F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C6BF68B2684E52F0014F94F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C6BF6962684E52F0014F94F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C6BF66B2684E52E0014F94F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C44F3062685E9CF008847AD /* DisplayClassInfoViewController.m in Sources */,
+				4C22A9832688BB7500B9A83E /* AttendanceViewController.m in Sources */,
+				4C4CD8B1268B5A6B0037926E /* StudentInfoTableViewController.m in Sources */,
+				4CE88B26268C58EC0011C632 /* EditAttendanceViewController.m in Sources */,
+				4C44F320268713C5008847AD /* Students+CoreDataClass.m in Sources */,
+				4C44F321268713C5008847AD /* Students+CoreDataProperties.m in Sources */,
+				4C44F2E02684FF12008847AD /* AddStudentViewController.m in Sources */,
+				4C6BF6882684E52F0014F94F /* main.m in Sources */,
+				4C6BF67A2684E52E0014F94F /* ViewController.m in Sources */,
+				4CE88B13268B9D0F0011C632 /* StudentInfoViewController.m in Sources */,
+				4CD284F72689D75D00AAE7CC /* AtendanceClassViewController.m in Sources */,
+				4C6BF6742684E52E0014F94F /* AppDelegate.m in Sources */,
+				4CD284E926898A1A00AAE7CC /* Attendance+CoreDataClass.m in Sources */,
+				4C6BF6772684E52E0014F94F /* SceneDelegate.m in Sources */,
+				4CD2851E268B1CEF00AAE7CC /* DeleteStudentViewController.m in Sources */,
+				4CE88B1D268C581A0011C632 /* takeInputsForEditAttendanceViewController.m in Sources */,
+				4C6BF6802684E52E0014F94F /* AttendanceManagement.xcdatamodeld in Sources */,
+				4CD284EA26898A1A00AAE7CC /* Attendance+CoreDataProperties.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C6BF6892684E52F0014F94F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C6BF6922684E52F0014F94F /* AttendanceManagementTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C6BF6942684E52F0014F94F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C6BF69D2684E52F0014F94F /* AttendanceManagementUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4C6BF68F2684E52F0014F94F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C6BF66E2684E52E0014F94F /* AttendanceManagement */;
+			targetProxy = 4C6BF68E2684E52F0014F94F /* PBXContainerItemProxy */;
+		};
+		4C6BF69A2684E52F0014F94F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C6BF66E2684E52E0014F94F /* AttendanceManagement */;
+			targetProxy = 4C6BF6992684E52F0014F94F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4C6BF67B2684E52E0014F94F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C6BF67C2684E52E0014F94F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4C6BF6832684E52F0014F94F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C6BF6842684E52F0014F94F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4C6BF69F2684E52F0014F94F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4C6BF6A02684E52F0014F94F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C6BF6A22684E52F0014F94F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9N4LY9L3AS;
+				INFOPLIST_FILE = AttendanceManagement/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.akshatjaiswal.AttendanceManagement;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4C6BF6A32684E52F0014F94F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9N4LY9L3AS;
+				INFOPLIST_FILE = AttendanceManagement/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.akshatjaiswal.AttendanceManagement;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4C6BF6A52684E52F0014F94F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9N4LY9L3AS;
+				INFOPLIST_FILE = AttendanceManagementTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.akshatjaiswal.AttendanceManagementTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AttendanceManagement.app/AttendanceManagement";
+			};
+			name = Debug;
+		};
+		4C6BF6A62684E52F0014F94F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9N4LY9L3AS;
+				INFOPLIST_FILE = AttendanceManagementTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.akshatjaiswal.AttendanceManagementTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AttendanceManagement.app/AttendanceManagement";
+			};
+			name = Release;
+		};
+		4C6BF6A82684E52F0014F94F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9N4LY9L3AS;
+				INFOPLIST_FILE = AttendanceManagementUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.akshatjaiswal.AttendanceManagementUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AttendanceManagement;
+			};
+			name = Debug;
+		};
+		4C6BF6A92684E52F0014F94F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9N4LY9L3AS;
+				INFOPLIST_FILE = AttendanceManagementUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.akshatjaiswal.AttendanceManagementUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AttendanceManagement;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C6BF66A2684E52E0014F94F /* Build configuration list for PBXProject "AttendanceManagement" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C6BF69F2684E52F0014F94F /* Debug */,
+				4C6BF6A02684E52F0014F94F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C6BF6A12684E52F0014F94F /* Build configuration list for PBXNativeTarget "AttendanceManagement" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C6BF6A22684E52F0014F94F /* Debug */,
+				4C6BF6A32684E52F0014F94F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C6BF6A42684E52F0014F94F /* Build configuration list for PBXNativeTarget "AttendanceManagementTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C6BF6A52684E52F0014F94F /* Debug */,
+				4C6BF6A62684E52F0014F94F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C6BF6A72684E52F0014F94F /* Build configuration list for PBXNativeTarget "AttendanceManagementUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C6BF6A82684E52F0014F94F /* Debug */,
+				4C6BF6A92684E52F0014F94F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4C6BF67E2684E52E0014F94F /* AttendanceManagement.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4C6BF67F2684E52E0014F94F /* AttendanceManagement.xcdatamodel */,
+			);
+			currentVersion = 4C6BF67F2684E52E0014F94F /* AttendanceManagement.xcdatamodel */;
+			path = AttendanceManagement.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4C6BF6672684E52E0014F94F /* Project object */;
+}
